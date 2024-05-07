@@ -196,3 +196,48 @@ body {
     opacity: 1;
   }
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 15px 3%;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .home {
+    padding: 40px 3% 0;
+  }
+
+  .home-content h1 {
+    font-size: 28px;
+  }
+
+  .home-content h3 {
+    font-size: 20px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .social-media a {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    margin: 10px 6px 10px 0;
+  }
+
+  .btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
